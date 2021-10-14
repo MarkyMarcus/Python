@@ -41,10 +41,3 @@ else:
 
 # TODO: Calculate your age and store it in a variable.  Create a if/elif/else statement that
 # uses the age in an expression and in the printed messages
-age = 2019 - 2001
-if age < 13:
-    print('At age %d, you are not a teenage yet' % age)
-elif age < 20:
-    print('At age %d, you are a teenage' % age)
-else:
-    print('At age %d, you are older than a teenage' % age)

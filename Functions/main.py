@@ -40,10 +40,3 @@ def factorial(a):
 print("The factorial of 10 is", factorial(10))
 
 # TODO: Create a function that prints the multiplication table for a value and call the function
-def table(number):
-    for i in range(number):
-        for j in range(number):
-            print('%4d' % ((i + 1) * (j + 1)), end=" ")
-        print()
-
-table(10)

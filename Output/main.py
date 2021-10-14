@@ -27,7 +27,5 @@ print('My name is {0} and I am {1} years old'.format('Michelle', 10))
 print('My name is {1} and I am {0} years old'.format(10,'Michelle'))
 
 # TODO: Print out your name and age using format specifiers
-print('My name is %s and I am %d years old' % ('Michelle', 15))
 
 # TODO: Print out your name and age using the format function
-print('My name is {} and I am {} years old'.format('Michelle', 15))

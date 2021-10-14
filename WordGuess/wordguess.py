@@ -22,23 +22,13 @@ while True:
 while True:
 
     # Flag to determine if they've won
-    missing_letters = False
+    # TODO
 
     # Print the word with blanks or correct guesses
-    print('')
-    print('Current word: ', end='')
-
-    for w in word:
-        if w in guesses:
-            print(w, end='')
-        else:
-            missing_letters = True
-            print('_', end='')
-
-    print()
+    # TODO
 
     # Tell them how many guesses they have remaining
-    print('Guesses remaining:', guesses_remaining)
+    # TODO
 
     # Tell them the letters available
     print('Available letters: ', end='')
@@ -51,41 +41,28 @@ while True:
     print()
 
     # Check if they've guessed all of the letters
-    if not missing_letters:
-        print('YOU WON!')
-        break
+    # TODO
 
     # Check if they've run out of guesses
-    if guesses_remaining == 0:
-        print('YOU LOST')
-        print('Correct word:', word)
-        break
+    # TODO
     
     # Have them guess another letter or a full word
     guess = input('Please guess a letter or a word: ')
 
     # Capitalize their guess
-    guess = guess.upper()
+    # TODO
 
     # Make sure they guess something
-    if guess == '':
-        print("Please enter a letter or word")
-        continue
+    # TODO
 
     # If they guessed the entire word they won
-    if guess == word:
-        print('YOU WON!')
-        print('Correct word:', word)
-        break
+    # TODO
 
     # If they guess the same letter more than once we should penalize them
-    if guess in guesses:
-        print("You've already guessed", guess)
-        continue
+    # TODO
 
     # Add their guess to our list of guesses if it's letter
-    if len(guess) == 1:
-        guesses += guess
+    # TODO
 
     # Subject one remaining guess
-    guesses_remaining -= 1
+    # TODO

@@ -15,12 +15,6 @@ def encrypt(msg):
     encryptedMsg = ''
 
     # TODO: Encrypt the msg
-    for char in msg:
-        number = ord(char) - start
-        number = number + key
-        number = number % count
-        number = number + start
-        encryptedMsg = encryptedMsg + chr(number)
     return encryptedMsg
 
 def decrypt(msg):

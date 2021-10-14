@@ -36,23 +36,6 @@ class Bird(Pet):
         print('Chirp!')
 
 # TODO: Create a new class of pet
-class Snake(Pet):
-    def type(self):
-        print("I'm a snake")
 
 pets = []
 # TODO: Create instances of 3 or more pets and add them to the pets list
-pets.append(Cat())
-pets.append(Dog())
-pets.append(Bird())
-pets.append(Snake())
-
-for pet in pets:
-    print('*'*50)
-    pet.type()
-    pet.speak()
-    print('I have %d legs' % pet.legs)
-    if pet.fur:
-        print('I have fur')
-    else:
-        print('I do not have fur')

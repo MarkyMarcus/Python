@@ -17,22 +17,7 @@ import os
 def isLeapYear(year):
     # Determine if a leap year
     # TODO: Add code here
-    '''
-    if year % 4 != 0:
-        return False
-    elif year % 100 != 0:
-        return True
-    elif year % 400 != 0:
-        return False
-    else:
-        return True
-    '''
 
-    if year % 400 == 0:
-        return True
-    if year % 100 == 0:
-        return False
-    return year % 4 == 0
 
 year = int(os.sys.argv[1])
 if isLeapYear(year):

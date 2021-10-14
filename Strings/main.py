@@ -29,5 +29,3 @@ print(string.find('fox'))
 print('First string' == 'First string')
 
 # TODO: Create a string and replace all lowercase vowels characters with an uppercase vowels.  Hint: use string.replace()
-string = 'This is my string'
-print(string.replace('a', 'A').replace('e', 'E').replace('i', 'I').replace('o', 'O').replace('u', 'U'))

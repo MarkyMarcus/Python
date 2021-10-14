@@ -35,8 +35,3 @@ my_list.pop()               # [5, 7, 'foo', 'a'], returns 'b'
 my_list.remove('foo')       # [5, 7, 'a']
 
 # TODO: Create a list for the months of the year.  Print 'Happy Birthday' for your birthday month.
-months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-for month in months:
-    if month == 'May':
-        print(month, '-', 'Happy Birthday')
-    print(month)

@@ -63,4 +63,3 @@ not 1
 (1 + 2) * 3
 
 # TODO: Calculate the number of seconds in a day
-60 * 60 * 24

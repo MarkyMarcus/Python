@@ -49,7 +49,3 @@ for i in range(5):
         print('i == {}, j == {}'.format(i, j))
 
 # TODO: Print out the multiplication table up to 9
-for i in range(9):
-    for j in range(9):
-        print('%2d' % ((i + 1) * (j + 1)), end=' ')
-    print()

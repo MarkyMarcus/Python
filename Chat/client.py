@@ -72,9 +72,6 @@ if args.encryption == 'plaintext':
     import plaintext as encryption
 elif args.encryption == 'caesar':
     # TODO: Import the caesar cipher module
-    import caesar as encryption
-    if args.key is not None:
-        encryption.setKey(int(args.key))
 else:
     raise Exception('Unknown encryption algorithm: %s', args.encryption)
 

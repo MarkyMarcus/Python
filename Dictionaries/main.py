@@ -20,6 +20,3 @@ my_dict.update({"b": 2})            # {'a': 1, 'b': 2}, Update is done "in place
 my_dict.pop('a')            # {'b': 2}, returns '1'
 
 # TODO: Create a dictionary of your eye color, hair color, favorite color and print out the list
-colors = {'eye': 'blue', 'hair': 'brown', 'favorite': 'blue'}
-for k, v in colors.items():
-    print(k, v)
